@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 
 public class Umaru {
 
-    public static final String BOT_TOKEN = "NzYzNDM3NzQ3MzE3ODk5MzA0.X33szg.4Nw6JhZbAlFVgomwjPeUaFj5pAc";
+    public static final String BOT_TOKEN = "";
     public static final String ROLE_CHANNEL_ID = "765597334905552946";
     public static final String SERVER_ID = "239231937481277440";
     public static final Long AMONG_US_ROLE = 748005731466215425L;
