@@ -1,0 +1,19 @@
+
+Deletes the all messages in a text channel. use with care
+//        try {
+//                MessageSet history = <channel>.getMessages(Integer.MAX_VALUE).get();
+//                <channel>.bulkDelete(history);
+//        } catch (Exception exception) {
+//                <channel>.sendMessage("Execution Failed, this should not happen please report it to Latere");
+//        }
+Corollary: command that deletes messages
+//        roleAssign.addMessageCreateListener(e -> {
+//            if (e.getMessageContent().equalsIgnoreCase("!clear")) {
+//                try {
+//                    MessageSet history = e.getChannel().getMessages(99).get();
+//                    e.getChannel().bulkDelete(history);
+//                } catch (Exception exception) {
+//                    e.getChannel().sendMessage("Execution Failed, this should not happen please report it to Latere");
+//                }
+//            }
+//        });
