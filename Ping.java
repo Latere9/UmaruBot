@@ -7,9 +7,7 @@ public class Ping {
         api.addMessageCreateListener(e -> {
             if (e.getMessageContent().equalsIgnoreCase("!ping")) {
                 e.getChannel().sendMessage("Pong!");
-            } //else if (e.getMessageContent().contains("i want to die")) {
-//                e.getChannel().sendMessage("Just do it!");
-//            }
+            }
         });
     }
 }

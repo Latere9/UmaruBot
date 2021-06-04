@@ -78,4 +78,8 @@ public class ReactionRoleBuilder {
         }
         return -1;
     }
+
+    public Long getMessageID() {
+        return messageID;
+    }
 }
